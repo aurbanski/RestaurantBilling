@@ -36,6 +36,7 @@
     <Compile Include="CustomAppStart.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Models\Bill.cs" />
+    <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Platform">
