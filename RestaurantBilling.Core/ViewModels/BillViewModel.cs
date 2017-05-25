@@ -1,18 +1,17 @@
 ﻿using System;
 using MvvmCross.Core.ViewModels;
 using RestaurantBilling.Core.Services;
+using RestaurantBilling.Core.Models;
 using System.Windows.Input;
+using MvvmCross.Platform;
 
 namespace RestaurantBilling.Core.ViewModels
 {
     public class BillViewModel : MvxViewModel
     {
         readonly IBillCalculator _calculation;
-        private string _customerEmail;
-        double _subTotal;
+        Bill _bill;
         int _gratuity;
-        double _tip;
-        double _total;
 
         public ICommand NavBack
         {
@@ -26,11 +25,11 @@ namespace RestaurantBilling.Core.ViewModels
         {
             get
             {
-                return _customerEmail;
+                return _bill.CustomerEmail;
             }
             set
             {
-                _customerEmail = value;
+                _bill.CustomerEmail = value;
                 RaisePropertyChanged(() => CustomerEmail);
             }
         }
@@ -39,11 +38,11 @@ namespace RestaurantBilling.Core.ViewModels
         {
             get
             {
-                return _subTotal;
+                return _bill.SubTotal;
             }
             set
             {
-                _subTotal = value;
+                _bill.SubTotal = value;
                 RaisePropertyChanged(() => SubTotal);
                 Recalculate();
             }
@@ -67,10 +66,10 @@ namespace RestaurantBilling.Core.ViewModels
         {
             get 
             {
-                return _tip;    
+                return _bill.Tip;    
             }
             set{
-                _tip = value;
+                _bill.Tip = value;
                 RaisePropertyChanged(() => Tip);
 
             }
@@ -80,11 +79,11 @@ namespace RestaurantBilling.Core.ViewModels
         {
             get
             {
-                return _total;
+                return _bill.AmountPaid;
             }
             set
             {
-                _total = value;
+                _bill.AmountPaid = value;
                 RaisePropertyChanged(() => Total);
             }
         }
@@ -94,9 +93,25 @@ namespace RestaurantBilling.Core.ViewModels
             _calculation = calculation;
         }
 
-        public void Init(int subTotal)
+        public ICommand SaveBill
         {
-            SubTotal = subTotal;
+            get{
+                return new MvxCommand(() =>
+                {
+                    if(_bill.IsValid())
+                    {
+						Mvx.Resolve<Repository>().CreateBill(_bill).Wait();
+						Close(this);
+                    }
+                });
+            }
+        }
+
+        public void Init(Bill bill = null)
+        {
+			_bill = bill == null ? new Bill() : bill;
+			_gratuity = (int)_calculation.Gratuity(_bill.SubTotal, bill.Tip);
+			RaiseAllPropertiesChanged();
         }
 
         public override void Start()

@@ -10,7 +10,15 @@ namespace RestaurantBilling.Core.ViewModels
         {
             get
             {
-                return new MvxCommand(() => ShowViewModel<BillViewModel>(new { subTotal = 40 }));
+                return new MvxCommand(() => ShowViewModel<BillViewModel>());
+            }
+        }
+
+        public ICommand NavigateAllBills
+        {
+            get 
+            {
+                return new MvxCommand(() => ShowViewModel<AllBillsViewModel>());
             }
         }
     }

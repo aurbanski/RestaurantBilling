@@ -12,5 +12,10 @@ namespace RestaurantBilling.Core.Services
         {
             return subTotal + TipAmount(subTotal, gratuity);
         }
+
+        public double Gratuity(double subTotal, double tip)
+        {
+            return tip == 0 ? 0 : subTotal / tip;
+        }
     }
 }

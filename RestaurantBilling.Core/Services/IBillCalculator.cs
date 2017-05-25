@@ -5,5 +5,6 @@ namespace RestaurantBilling.Core.Services
     {
         double TipAmount(double subTotal, int gratuity);
         double BillTotal(double subTotal, int gratuity);
+        double Gratuity(double subTotal, double tip);
     }
 }
