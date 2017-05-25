@@ -1,0 +1,10 @@
+﻿using System;
+namespace RestaurantBilling.UI.Droid.Views
+{
+	public class View_SplashScreen
+	{
+		public View_SplashScreen()
+		{
+		}
+	}
+}

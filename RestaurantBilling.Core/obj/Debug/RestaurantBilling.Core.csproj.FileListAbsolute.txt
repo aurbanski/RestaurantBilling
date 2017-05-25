@@ -1,0 +1,11 @@
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/RestaurantBilling.Core.dll
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/RestaurantBilling.Core.pdb
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/MvvmCross.Core.dll
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/MvvmCross.Platform.dll
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/MvvmCross.Platform.pdb
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/bin/Debug/MvvmCross.Core.pdb
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/obj/Debug/RestaurantBilling.Core.csprojResolveAssemblyReference.cache
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/obj/Debug/RestaurantBilling.Core.csproj.CoreCompileInputs.cache
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/obj/Debug/RestaurantBilling.Core.dll
+/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.Core/obj/Debug/RestaurantBilling.Core.pdb
