@@ -5,12 +5,14 @@
     <ResolvedResourceDirectory>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/MvvmCross.Binding.Droid/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/MvvmCross.Droid/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/MvvmCross.Platform.Droid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/SQLitePCL.raw/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/MvvmCross.Binding.Droid/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/MvvmCross.Droid/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/MvvmCross.Platform.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/SQLitePCL.raw/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
@@ -18,6 +20,7 @@
     <ResolvedResourceDirectoryStamp>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/MvvmCross.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/alexurbanski/Projects/RestaurantBilling/RestaurantBilling.UI.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{36151D6F-A3C5-48EC-A38A-5A0C83726484}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantBilling.Core/ViewModels/BillViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantBilling.Core/Models/Bill.cs">
     <Files>
-      <File FileName="RestaurantBilling.Core/ViewModels/BillViewModel.cs" Line="112" Column="64" />
+      <File FileName="RestaurantBilling.Core/Models/Bill.cs" Line="3" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
